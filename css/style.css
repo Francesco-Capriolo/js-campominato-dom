@@ -1,0 +1,42 @@
+header,
+footer {
+    background-color: white;
+    height: 10vh;
+}
+
+main {
+    height: 80vh;
+    background-color: rgb(53, 117, 245);
+}
+
+.btn {
+    vertical-align: inherit;
+}
+
+/* div#grid {
+    height: 600px; 
+}
+ */
+.box:hover {
+    opacity: 0.5;
+}
+
+/* box che mi serve per il js */
+.box {
+    border: 2px solid black;
+    cursor: crosshair;
+    background-color: rgb(237, 240, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.box-clicked {
+    background-image: url("../img/like.jpg");
+    background-size: contain;
+}
+
+div.box-bomber {
+    background-image: url("../img/bomb.png");
+    background-size: contain;
+}
