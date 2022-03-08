@@ -84,7 +84,7 @@ function createNewGame() {
     let cellsNumber;
 
     let points = 0;
-    const NUMBER_OF_BOMBS = 16;
+    const numberBombs = 16;
 
     //  prendere il valore in base alla difficoltà
     switch (level) {
@@ -106,7 +106,7 @@ function createNewGame() {
     cellsPerRow = Math.sqrt(cellsNumber);
 
     // genero la lista delle bombe casuali
-    const bombs = generateBombList(NUMBER_OF_BOMBS, cellsNumber);
+    const bombs = generateBombList(numberBombs, cellsNumber);
     console.log(bombs);
 
     //  ciclo per tutti gli elementi che voglio creare
