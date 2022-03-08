@@ -29,14 +29,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-position: center;
 }
 
 div.box-clicked {
     background-image: url("../img/like.jpg");
-    background-size: contain;
 }
 
 div.box-bomber {
     background-image: url("../img/bomb.png");
-    background-size: contain;
 }
